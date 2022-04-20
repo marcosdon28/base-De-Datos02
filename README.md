@@ -1,2 +1,2 @@
 # base-De-Datos02
-hola doro
+Trabajo de base de datos02 7c
