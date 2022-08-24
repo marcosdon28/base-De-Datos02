@@ -77,8 +77,8 @@ INSERT INTO
     )
 VALUES (
         1,
-        'Carbel',
-        'Matias',
+        'Don',
+        'Marcos',
         'a',
         NULL,
         '1',
@@ -88,13 +88,12 @@ VALUES (
 
 UPDATE employees SET employeeNumber = employeeNumber - 20;
 
-#se le resto 20 a los employeeNumber de todos los employee
+#le resto 20 a los employeeNumber de todos los employee
 UPDATE employees
 SET
     employeeNumber = employeeNumber + 20;
 
-#Duplicate entry '1056' for key 'PRIMARY'. no sucede nada ya que si se sumaran 20
-#habria 2 primary keys exactas por un momento
+#Duplicate entry '1056' for key 'PRIMARY'. no sucede nada ya que si se sumaran 20 va a haber 2 pk por un momento
 SELECT *
 FROM employees;
 
